@@ -156,6 +156,7 @@ class login : BaseActivity() {
                                 if (fingerprinted) {
                                     setPrefsString(
                                         Constants.CUST_PID,
+                                        //mounika
                                         response.body()!!.getCustomerPrimaryId().toString()
                                     )
                                     setPrefsString(Constants.CUST_NAME, response.body()!!.getCustomerName().toString())

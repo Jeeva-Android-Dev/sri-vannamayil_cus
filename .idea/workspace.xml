@@ -14,7 +14,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2428fe44-0c07-490a-9edb-b78599f77a7f" name="Default Changelist" comment="Mazechit customer initila commit version 0.1" />
+    <list default="true" id="2428fe44-0c07-490a-9edb-b78599f77a7f" name="Default Changelist" comment="Mazechit customer initila commit version 0.1">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +71,7 @@
     <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -239,47 +241,47 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>284</line>
+          <line>285</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>302</line>
+          <line>303</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>237</line>
+          <line>238</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>259</line>
+          <line>260</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>172</line>
+          <line>173</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>200</line>
+          <line>201</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>421</line>
+          <line>422</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>422</line>
+          <line>423</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>398</line>
+          <line>399</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
@@ -289,72 +291,72 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>470</line>
+          <line>471</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>478</line>
+          <line>479</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>449</line>
+          <line>450</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>395</line>
+          <line>396</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>225</line>
+          <line>226</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>187</line>
+          <line>188</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>314</line>
+          <line>315</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>349</line>
+          <line>350</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>164</line>
+          <line>165</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>184</line>
+          <line>185</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>177</line>
+          <line>178</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>342</line>
+          <line>343</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>205</line>
+          <line>206</line>
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mazenet/prabakaran/mazechit_customer/Activities/login.kt</url>
-          <line>229</line>
+          <line>230</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
