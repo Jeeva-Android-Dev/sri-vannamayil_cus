@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mazenet-DineshRaj/Documents/Jeeva/Androidprojects/Kotlin/KMF Chits/KMF_chit_Customer_app/app/src/main/res/layout/activity_login.xml" value="0.18" />
+        <entry key="..\:/Users/Mazenet-DineshRaj/Documents/Jeeva/Androidprojects/Kotlin/KMF Chits/KMF_chit_Customer_app/app/src/main/res/layout/activity_sign_up.xml" value="0.33" />
+        <entry key="..\:/Users/Mazenet-DineshRaj/Documents/Jeeva/Androidprojects/Kotlin/KMF Chits/KMF_chit_Customer_app/app/src/main/res/layout/activity_signin__menu.xml" value="0.1" />
+        <entry key="..\:/Users/Mazenet-DineshRaj/Documents/Jeeva/Androidprojects/Kotlin/KMF Chits/KMF_chit_Customer_app/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Mazenet-DineshRaj/Documents/Jeeva/Androidprojects/Kotlin/KMF Chits/KMF_chit_Customer_app/app/src/main/res/layout/fragment_change_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Mazenet-DineshRaj/Documents/Jeeva/Androidprojects/Kotlin/KMF Chits/KMF_chit_Customer_app/app/src/main/res/menu/activity_home2_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Mazenet-DineshRaj/Documents/Jeeva/Androidprojects/Kotlin/VVRS/Vvrs_chit_Customer_app/app/src/main/res/layout/activity_home2.xml" value="0.1" />
+        <entry key="..\:/Users/Mazenet-DineshRaj/Documents/Jeeva/Androidprojects/Kotlin/VVRS/Vvrs_chit_Customer_app/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Mazenet-DineshRaj/Documents/Jeeva/Androidprojects/Kotlin/VVRS/Vvrs_chit_Customer_app/app/src/main/res/layout/activity_sign_up.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Mazenet-DineshRaj/Documents/Jeeva/Androidprojects/Kotlin/VVRS/Vvrs_chit_Customer_app/app/src/main/res/layout/activity_signin__menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Mazenet-DineshRaj/Documents/Jeeva/Androidprojects/Kotlin/VVRS/Vvrs_chit_Customer_app/app/src/main/res/menu/activity_home2_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/Mazenet-DineshRaj/Documents/Jeeva/Androidprojects/Kotlin/Vishwaroopa/Vishwaroopa_Customer_app/app/src/main/res/layout/showotpdilog.xml" value="0.21" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

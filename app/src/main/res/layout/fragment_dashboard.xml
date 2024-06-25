@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_200"
+        tools:context=".Fragments.Fragment_Dashboard">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorWhite"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/guideline4" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" android:layout_marginRight="8dp" android:layout_marginEnd="8dp">
+        <com.daimajia.slider.library.SliderLayout
+                android:id="@+id/slider"
+                style="@style/AlertDialog.AppCompat.Light"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:clipToPadding="false"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="16dp"
+                app:pager_animation_span="700">
+
+            <requestFocus/>
+
+        </com.daimajia.slider.library.SliderLayout>
+
+    </LinearLayout>
+
+    <android.support.constraint.Guideline android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                          android:id="@+id/guideline4"
+                                          android:orientation="horizontal"
+                                          app:layout_constraintGuide_percent="0.3"/>
+    <android.support.v4.widget.NestedScrollView android:layout_width="0dp"
+                                                android:layout_height="0dp"
+                                                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                                                android:layout_marginRight="8dp"
+                                                app:layout_constraintStart_toStartOf="parent"
+                                                android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                                                android:layout_marginBottom="8dp"
+                                                app:layout_constraintBottom_toBottomOf="parent"
+                                                app:layout_constraintTop_toBottomOf="@+id/txt_welcome"
+                                                android:layout_marginTop="8dp">
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <RelativeLayout
+                        android:id="@+id/rellay_timeline"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="0.5"
+                        android:clickable="true"
+                        android:padding="@dimen/sp16_space"
+                        android:foreground="?attr/selectableItemBackground">
+
+                    <RelativeLayout
+                            android:id="@+id/layout_mychits"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="@dimen/sp24_space"
+                            android:background="@drawable/card_background"
+                            android:layout_centerInParent="true">
+
+                        <ImageView
+                                android:id="@+id/imgView1"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:padding="8dp"
+                                android:scaleType="centerInside"
+                                android:src="@drawable/ic_mychits"
+                        />
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/imgView1"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/menu_mychits"
+                                android:layout_marginTop="5dp"
+                                android:textSize="@dimen/sp16_space"
+                                android:textColor="@color/colorBlack"/>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:id="@+id/layout_myacntcopy"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:padding="@dimen/sp16_space"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground">
+
+                    <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/card_background"
+                            android:padding="@dimen/sp24_space"
+                            android:layout_centerInParent="true">
+
+                        <ImageView
+                                android:id="@+id/imgView2"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:padding="8dp"
+                                android:scaleType="centerInside"
+                                android:src="@drawable/ic_account_copy"
+                        />
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/imgView2"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/menu_myaccntcopy"
+                                android:layout_marginTop="5dp"
+                                android:textSize="@dimen/sp16_space"
+                                android:textColor="@color/colorBlack"/>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                <RelativeLayout
+                        android:id="@+id/layout_newchits"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:padding="@dimen/sp16_space"
+                        android:foreground="?attr/selectableItemBackground">
+
+                    <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/sp24_space"
+                            android:background="@drawable/card_background"
+                            android:layout_centerInParent="true">
+
+                        <ImageView
+                                android:id="@+id/imgView3"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:padding="8dp"
+                                android:scaleType="centerInside"
+                                android:src="@drawable/ic_new_commencement"
+                        />
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/imgView3"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/menu_newchits"
+                                android:layout_marginTop="5dp"
+                                android:textSize="@dimen/sp16_space"
+                                android:textColor="@color/colorBlack"/>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:id="@+id/logout_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.65"
+                        android:visibility="gone"
+                        android:background="@color/green_dash"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground">
+
+                    <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/sp24_space"
+                            android:layout_centerInParent="true">
+
+                        <ImageView
+                                android:id="@+id/imgView4"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:padding="8dp"
+                                android:scaleType="centerInside"
+                                android:src="@drawable/ic_logout"
+                                android:tint="@color/colorWhite"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/imgView4"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/menu_logout"
+                                android:layout_marginTop="5dp"
+                                android:textSize="@dimen/sp16_space"
+                                android:textColor="@color/colorBlack"/>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_welcome"
+            app:layout_constraintTop_toTopOf="@+id/guideline4" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="16dp" android:layout_marginStart="16dp" android:textSize="@dimen/sp16_space"/>
+
+</android.support.constraint.ConstraintLayout>

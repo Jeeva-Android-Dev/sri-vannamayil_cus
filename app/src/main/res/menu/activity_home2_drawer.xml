@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_dashboard"
+                android:title="@string/menu_home"/>
+        <item
+                android:id="@+id/nav_mychits"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/menu_mychits"/>
+        <item
+                android:id="@+id/nav_acntcopy"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/menu_myaccntcopy"/>
+        <item
+                android:id="@+id/nav_newchits"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/menu_newchits"/>
+
+        <item
+            android:id="@+id/nav_change_password"
+            android:icon="@drawable/change_pass"
+            android:title="Change Password"/>
+
+
+        <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/menu_logout"/>
+    </group>
+
+    <item android:id="@+id/inner"
+          android:title="Settings">
+        <menu>
+            <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/ic_settings"
+                    android:visible="false"
+                    android:title="@string/menu_settings"/>
+
+        </menu>
+    </item>
+
+</menu>

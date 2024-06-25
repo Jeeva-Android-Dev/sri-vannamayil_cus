@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".Fragments.NewChits">
+
+    <android.support.constraint.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"                                  android:id="@+id/guideline5"
+            android:orientation="horizontal"
+                                          app:layout_constraintGuide_percent="0.3"/>
+    <ImageView
+            android:src="@drawable/ic_new_commencement"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/imageView8" app:layout_constraintTop_toBottomOf="@+id/pb_newchit"
+            android:elevation="@dimen/sp4_space"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toTopOf="@+id/guideline5"
+            app:layout_constraintEnd_toStartOf="@+id/guideline6"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:padding="@dimen/sp24_space"/>
+    <android.support.constraint.Guideline android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                          android:id="@+id/guideline6"
+                                          android:orientation="vertical"
+                                          app:layout_constraintGuide_percent="0.4"/>
+    <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/view"
+            app:layout_constraintTop_toBottomOf="@+id/pb_newchit"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/guideline5"
+            android:background="@color/colorPrimaryDarkest" app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.0"/>
+    <TextView
+            android:text="@string/menu_newchits"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            app:layout_constraintStart_toEndOf="@+id/imageView8"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline5"
+            app:layout_constraintTop_toBottomOf="@+id/pb_newchit"
+            app:layout_constraintEnd_toEndOf="@+id/view"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" android:singleLine="false"
+            android:textSize="18sp" android:inputType="textMultiLine" android:maxLines="2"/>
+
+    <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:elevation="@dimen/sp4_space"
+            android:layout_height="wrap_content"
+            android:id="@+id/pb_newchit"
+            android:indeterminate="true"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+    />
+    <android.support.v4.widget.SwipeRefreshLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/guideline5"
+            android:id="@+id/swiper_newchits">
+
+        <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recycler_newchits"/>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+</android.support.constraint.ConstraintLayout>
